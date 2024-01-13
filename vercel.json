@@ -5,7 +5,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "Backend/api/index.ts"
+      "destination": "Frontend/public/index.html"
     }
   ],
   "redirects": [{ "source": "/", "destination": "/api", "permanent": false }]

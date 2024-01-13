@@ -1,0 +1,24 @@
+.header {
+  background: #f9b713;
+  
+}
+
+.header h2 {
+  margin: 0;
+  padding: 10px;
+  
+  text-align: center;
+  color: black;
+  
+}
+
+.cart__content {
+  
+  top: 0;
+  right: 0;
+/* Adjust the width as needed */
+  background-color: #f9b713; /* Transparent white background */
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black;
+}

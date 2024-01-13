@@ -1,0 +1,21 @@
+{
+  "name": "JATE",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "npm run build && npm run server",
+    "server": "cd Backend && nodemon src/index.ts --ignore Frontend",
+    "build": "cd Frontend && npm run build",
+    "install": "cd Backend && npm i && cd ../Frontend && npm i",
+    "client": "cd Frontend && npm start"
+  },
+  
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  }
+}

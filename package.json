@@ -10,7 +10,6 @@
     "install": "cd Backend && npm i && cd ../Frontend && npm i",
     "client": "cd Frontend && npm start"
   },
-  
   "dependencies": {
     "express": "^4.17.1"
   },
